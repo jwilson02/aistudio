@@ -102,6 +102,9 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onGenerate, error 
             placeholder="e.g., 'the red coffee mug'"
             className="w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition-colors"
           />
+          <p className="mt-2 text-xs text-gray-400">
+            The system will generate 8 different angle views and create a voxelized STL model
+          </p>
         </div>
 
         <button
@@ -109,7 +112,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onGenerate, error 
           disabled={!imageFile || !prompt}
           className="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-cyan-500 disabled:bg-gray-600 disabled:cursor-not-allowed transition-all duration-300"
         >
-          Generate 3D Model
+          Generate Multi-Angle 3D Model
         </button>
       </form>
     </div>

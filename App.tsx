@@ -75,14 +75,14 @@ const App: React.FC = () => {
       <header className="w-full max-w-4xl flex items-center justify-center mb-6">
         <LogoIcon className="w-10 h-10 mr-3 text-cyan-400" />
         <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
-          Object to 3D Model
+          Multi-Angle Voxelized 3D Model Generator
         </h1>
       </header>
       <main className="w-full max-w-4xl flex-grow flex flex-col items-center justify-center">
         {renderContent()}
       </main>
       <footer className="w-full max-w-4xl text-center text-gray-500 mt-8 text-sm">
-        <p>Powered by Gemini. Generated models are artistic representations.</p>
+        <p>Powered by Gemini. Creates STL models from multi-angle composite analysis.</p>
       </footer>
     </div>
   );
