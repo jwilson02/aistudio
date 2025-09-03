@@ -1,5 +1,5 @@
 {
-  "name": "Object to 3D Model Generator",
-  "description": "An application that takes a user-uploaded image and a text prompt to identify an object, then generates multiple 3D-rendered views and a simulated STL model file for that object.",
+  "name": "Multi-Angle Voxelized 3D Model Generator",
+  "description": "An application that takes a user-uploaded image and text prompt to identify an object, then generates multiple 3D-rendered views from different angles (front, back, sides, top, bottom, diagonals) and creates a voxelized STL model file using multi-viewpoint composite analysis.",
   "requestFramePermissions": []
 }
